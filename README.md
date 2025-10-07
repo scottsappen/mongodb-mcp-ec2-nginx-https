@@ -5,6 +5,7 @@ This repo gets you a working MongoDB MCP Server on EC2 with NGINX + Let’s Encr
 Notes:
 - Validated with Node 20.x (NodeSource) and modelcontextprotocol/inspector@latest
 - Renewal is automatic; if you’re paranoid, add a root cron to reload NGINX after certbot renew.
+- This is just for a sanity check or a smoketest if you will. In a real world scenario, you would implement real security among other things.
 
 <br>
 
